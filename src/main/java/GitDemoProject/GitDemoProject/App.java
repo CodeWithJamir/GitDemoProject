@@ -23,8 +23,8 @@ public class App {
          driver.get("https://www.naukri.com");
         
          driver.findElement(By.xpath("//a[contains(text(),'Login')]")).click();
-         driver.findElement(By.xpath("//input[@placeholder='Enter your active Email ID / Username']")).sendKeys("shaikhjamir28@gmail.com");
-         driver.findElement(By.xpath("//input[@placeholder='Enter your password']")).sendKeys("Jamir@12345");
+         driver.findElement(By.xpath("//input[@placeholder='Enter your active Email ID / Username']")).sendKeys("######");
+         driver.findElement(By.xpath("//input[@placeholder='Enter your password']")).sendKeys("######");
          driver.findElement(By.xpath("//button[@type='submit' and contains(text(),'Login')]")).click();
          
          driver.findElement(By.xpath("//div[@class='nI-gNb-drawer']")).click();
